@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Welcome {first}\n\n📌 Visit https://ottdreams.blogspot.com\n ⚠️ Forward File to Your Saved Messages ASAP!\n🚫 File or Bot might get Deleted or Banned anytime.️\n📥 Click the download icon to Download file on Telegram.\n🛡Safe and Resumable Downloading Experience!")
+START_MSG = os.environ.get("START_MESSAGE", "Welcome {first}\n\n📌 Visit https://ottdreams.blogspot.com\n\n⚠️ Forward File to Your Saved Messages ASAP!\n\n🚫 File or Bot might get Deleted or Banned anytime.️\n\n📥 Click the download icon to Download file on Telegram.\n\n🛡Safe and Resumable Downloading Experience!")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
